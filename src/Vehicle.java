@@ -6,4 +6,8 @@ public class Vehicle {
         this.make = make;
         this.year = year;
     }
+
+    public void displayInfo(){
+        System.out.printf("Make is %s, year is %d%n",this.make,this.year);
+    }
 }
