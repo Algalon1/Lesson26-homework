@@ -7,7 +7,7 @@ public class Vehicle {
         this.year = year;
     }
 
-    public void displayInfo(){
-        System.out.printf("Make is %s, year is %d%n",this.make,this.year);
+    public String displayInfo(){
+        return String.format("Make is %s, year is %d",this.make,this.year);
     }
 }
